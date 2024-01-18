@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dars Receipt</title>
+</head>
+<body>
+    <script src="scripte.js"></script>
+
+    <div id="menuContainer">
+        <h1 id="menuTitle"> Dars Receipt</h1>
+
+        <div id="menu">
+            <div class="meal" id="breakfast">
+                <h2 onclick="toggleMenu('demoBreakfast')">Breakfast</h2>
+                <img src="image/breakfast.gif" alt="breakfast Image" style="width: 180px;">
+                <ul id="demoBreakfast">
+                    <li>Pancakes</li>
+                    <li>Omelette</li>
+                    <li>Fruit Salad</li>
+                </ul>
+            </div>
+            <div class="meal" id="lunch">
+                <h2 onclick="toggleMenu('demoLunch')">Lunch</h2>
+                <img src="image/Lunch.gif" alt="Lunch Image" style="width: 180px;">
+                <ul id="demoLunch">
+                    <li>Chicken Sandwich</li>
+                    <li>Caesar Salad</li>
+                    <li>Pasta carbonara</li>
+                </ul>
+            </div>
+            <div class="meal" id="dinner">
+                <h2 onclick="toggleMenu('demoDinner')">Dinner</h2>
+                <img src="image/Dinner.gif" alt="Dinner Image" style="width: 180px;">
+                <ul id="demoDinner">
+                    <li>Grilled Salmon</li>
+                    <li>Steak with Potatoes</li>
+                    <li>Veggie Stir-Fry</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
